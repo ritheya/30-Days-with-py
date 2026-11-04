@@ -247,14 +247,64 @@ def calculate_std(num):
     std = math.sqrt(var)
     return std
 print(calculate_std([1,2,3]))
-
-
-
 #Exercises: Level 3
 #Write a function called is_prime, which checks if a number is prime.
+def is_prime(num):
+    if num<=1:
+        return False
+    for i in range(2,num):
+        if num%i==0:
+            return False
+    return True
+print(is_prime(2))
+print(is_prime(10))
+print(is_prime(7))
 #Write a functions which checks if all items are unique in the list.
+def unique(args):
+    var=set(args)
+    if len(args)==len(var):
+        return True
+    else:
+        return False
+print(unique([1,2,'set']))
+print(unique([1,2,3,4]))
 #Write a function which checks if all the items of the list are of the same data type.
+def chech_type(args):
+    var=type(args[0])
+    for i in range(len(args)):
+        if type(args[i])!=var:
+            return False
+    return True
+print(chech_type([1,2,3,4,5]))
+print(chech_type([1,2,'set',4,'lotus']))
 #Write a function which check if provided variable is a valid python variable
+def check_var(var):
+    if  var.isidentifier():
+     return True
+    return False
+print(check_var('isurcolab'))
+print(check_var('12isurcolab'))
 #Go to the data folder and access the countries-data.py file.
 #Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
+from Datas.countries_data import countries_data
+print(type(countries_data))
+def most_spoken_languages(countries_data) :
+    languages_count={}
+    for country in countries_data:
+        for language in country['languages']:
+          if language in languages_count:
+            languages_count[language]+=1
+          else:
+            languages_count[language]=1
+    result=sorted(languages_count.items(),key=lambda x:x[1],reverse=True)
+    return result[:10]
+print(most_spoken_languages(countries_data))
 #Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.
+
+def most_populated_countries(countries_data):
+    total=[]
+    for country in countries_data:
+       total.append((country['name'],country['population']))
+    ans=sorted(total,key=lambda x:x[1],reverse=True)
+    return ans[:20]
+print(most_populated_countries(countries_data))
