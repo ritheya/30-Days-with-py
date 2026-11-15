@@ -1,0 +1,52 @@
+[
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/53/iris",
+        "details": "Iris A small classic dataset from Fisher, 1936. One of the earliest known datasets used for evaluating classification methods. Classification Tabular 150 Instances 4 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/45/heart+disease",
+        "details": "Heart Disease 4 databases: Cleveland, Hungary, Switzerland, and the VA Long Beach Classification Multivariate 303 Instances 13 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/186/wine+quality",
+        "details": "Wine Quality Two datasets are included, related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009], http://www3.dsi.uminho.pt/pcortez/wine/). Classification, Regression Multivariate 4.9K Instances 12 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/222/bank+marketing",
+        "details": "Bank Marketing The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y). Classification Multivariate 45.21K Instances 17 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/17/breast+cancer+wisconsin+diagnostic",
+        "details": "Breast Cancer Wisconsin (Diagnostic) Diagnostic Wisconsin Breast Cancer Database. Classification Multivariate 569 Instances 30 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/320/student+performance",
+        "details": "Student Performance Predict student performance in secondary education (high school). Classification, Regression Multivariate 649 Instances 33 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/2/adult",
+        "details": "Adult Predict whether annual income of an individual exceeds $50K/yr based on census data. Also known as \"Census Income\" dataset. Classification Multivariate 48.84K Instances 14 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/352/online+retail",
+        "details": "Online Retail This is a transactional data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. Classification, Clustering Multivariate, Sequential, Time-Series 541.91K Instances 6 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/109/wine",
+        "details": "Wine Using chemical analysis to determine the origin of wines Classification Tabular 178 Instances 13 Features"
+    },
+    {
+        "name": "",
+        "url": "https://archive.ics.uci.edu/datasets/dataset/19/car+evaluation",
+        "details": "Car Evaluation Derived from simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods. Classification Multivariate 1.73K Instances 6 Features"
+    }
+]
