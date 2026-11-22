@@ -56,8 +56,5 @@ sets.remove(1)
 print(sets)
 #I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
 words="I am a teacher and I love to inspire and teach people"
-spli=words.split()
+spli=len(set(words.split()))
 print(spli)
-sets=set(spli)
-print(sets)
-print(len(sets))
